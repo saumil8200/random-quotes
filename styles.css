@@ -48,6 +48,12 @@ body {
     text-shadow: 3px 4px 7px rgba(35,35,35,0.8);
 }
 
+@media only screen and (max-width: 600px) {
+    .section {
+      width: 100%;
+    }
+  }
+
 .container {
     position: relative;
     text-align: center;
